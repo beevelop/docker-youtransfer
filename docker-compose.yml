@@ -1,0 +1,25 @@
+# Central Volumes Image
+volumes:
+  image: tianon/true
+  volumes:
+    # YouTransfer
+    - "./uploads/:/opt/youtransfer/uploads "
+
+# Central NGINX-Proxy
+proxy:
+  image: jwilder/nginx-proxy
+  ports:
+    - "80:80"
+  volumes:
+    - "/var/run/docker.sock:/tmp/docker.sock:ro"
+
+## Taigafront
+youtransfer:
+  image: beevelop/youtransfer
+  environment:
+    - VIRTUAL_HOST=youtransfer.example.com
+    - VIRTUAL_PORT=5000
+  expose:
+    - "5000"
+  volumes_from:
+    - "volumes"
