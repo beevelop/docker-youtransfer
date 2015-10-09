@@ -13,7 +13,7 @@ proxy:
   volumes:
     - "/var/run/docker.sock:/tmp/docker.sock:ro"
 
-## Taigafront
+# YouTransfer
 youtransfer:
   image: beevelop/youtransfer
   environment:
