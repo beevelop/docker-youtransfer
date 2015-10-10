@@ -12,6 +12,7 @@ proxy:
     - "80:80"
   volumes:
     - "/var/run/docker.sock:/tmp/docker.sock:ro"
+  restart: always
 
 # YouTransfer
 youtransfer:
@@ -23,3 +24,4 @@ youtransfer:
     - "5000"
   volumes_from:
     - "volumes"
+  restart: always
