@@ -7,7 +7,7 @@ ENV YOUTRANSFER_VERSION 1.0.6
 
 RUN \
     apt-get update -qq && apt-get install -y git && \
-    npm i -g youtransfer@${YOUTRANSFER_VERSION} && \
+    npm i --unsafe-perm -g youtransfer@${YOUTRANSFER_VERSION} && \
     youtransfer init && \
     npm i
 
