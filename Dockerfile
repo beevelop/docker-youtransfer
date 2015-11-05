@@ -9,7 +9,7 @@ RUN \
     apt-get update -qq && apt-get install -y git && \
     npm i --unsafe-perm -g youtransfer@${YOUTRANSFER_VERSION} && \
     youtransfer init && \
-    npm i
+    npm i --unsafe-perm
 
 VOLUME /opt/youtransfer/uploads
 
