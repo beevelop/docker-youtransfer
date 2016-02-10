@@ -5,13 +5,16 @@
 
 # [YouTransfer](https://github.com/remie/YouTransfer) for Docker :whale:
 
-
-
+## Docker-Compose (recommended)
 1. Clone this repository
 2. Update `docker-compose.yml` (Hostname)
 3. Run `docker-compose up`
-4. Access your YouTransfer installation and update your settings via UI
+4. Access your YouTransfer installation and update your settings via UI (**Settings** in the lower right corner)
 5. Enjoy!
 
-## Disclaimer
-> This is experimental and might break from time to time. Use at your own risk!
+## Old-school
+```bash
+docker run -it -v `pwd`/uploads/:/opt/youtransfer/uploads -p 5000:5000 beevelop/youtransfer
+```
+
+Visit *http://YOUR_HOST:5000* and update YouTransfer's settings through the UI (**Settings** in the lower right corner)
