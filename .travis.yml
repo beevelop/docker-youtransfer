@@ -1,0 +1,11 @@
+sudo: required
+
+services:
+  - docker
+
+script:
+  - docker build -t yt .
+  - docker run -d --name yt yt
+  - sleep 12
+  - docker logs yt
+  - docker exec yt /bin/sh -c "apt-get -qq update && apt-get -qq install -y curl && curl -f localhost:5000"
