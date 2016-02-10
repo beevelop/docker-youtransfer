@@ -1,6 +1,11 @@
-[![](https://badge.imagelayers.io/beevelop/youtransfer:latest.svg)](https://imagelayers.io/?images=beevelop/youtransfer:latest 'Get your own badge on imagelayers.io')
+[![Travis](https://img.shields.io/travis/beevelop/docker-youtransfer.svg?style=flat-square)](https://travis-ci.org/beevelop/docker-youtransfer)
+[![Docker Pulls](https://img.shields.io/docker/pulls/beevelop/youtransfer.svg?style=flat-square)](https://links.beevelop.com/d-youtransfer)
+[![ImageLayer](https://badge.imagelayers.io/beevelop/youtransfer:latest.svg)](https://imagelayers.io/?images=beevelop/youtransfer:latest)
+[![Beevelop](https://links.beevelop.com/honey-badge)](https://beevelop.com)
 
-# [YouTransfer](https://github.com/remie/YouTransfer) based on [beevelop/nodejs-python](https://github.com/beevelop/docker-nodejs-python)
+# [YouTransfer](https://github.com/remie/YouTransfer) for Docker :whale:
+
+
 
 1. Clone this repository
 2. Update `docker-compose.yml` (Hostname)
