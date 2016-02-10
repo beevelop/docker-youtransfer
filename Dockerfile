@@ -14,3 +14,5 @@ RUN apt-get update -qq && apt-get -qq install -y git && \
 VOLUME /opt/youtransfer/uploads
 
 CMD npm start
+
+EXPOSE 5000
