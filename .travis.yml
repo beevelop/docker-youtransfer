@@ -8,4 +8,4 @@ script:
   - docker run -d --name yt yt
   - sleep 12
   - docker logs yt
-  - docker exec yt /bin/sh -c "apt-get -qq update && apt-get -qq install -y curl && curl -f localhost:5000"
+  - docker exec yt /bin/sh -c "apk add --no-cache curl && curl -f localhost:5000"
