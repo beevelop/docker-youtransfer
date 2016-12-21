@@ -1,6 +1,9 @@
-[![Travis](https://img.shields.io/travis/beevelop/docker-youtransfer.svg?style=flat-square)](https://travis-ci.org/beevelop/docker-youtransfer)
-[![Docker Pulls](https://img.shields.io/docker/pulls/beevelop/youtransfer.svg?style=flat-square)](https://links.beevelop.com/d-youtransfer)
-[![ImageLayer](https://badge.imagelayers.io/beevelop/youtransfer:latest.svg)](https://imagelayers.io/?images=beevelop/youtransfer:latest)
+[![Travis](https://shields.beevelop.com/travis/beevelop/docker-youtransfer.svg?style=flat-square)](https://travis-ci.org/beevelop/docker-youtransfer)
+[![Pulls](https://shields.beevelop.com/docker/pulls/beevelop/youtransfer.svg?style=flat-square)](https://links.beevelop.com/d-youtransfer)
+[![Layers](https://shields.beevelop.com/docker/image/layers/beevelop/youtransfer/latest.svg?style=flat-square)](https://links.beevelop.com/d-youtransfer)
+[![Size](https://shields.beevelop.com/docker/image/size/beevelop/youtransfer/latest.svg?style=flat-square)](https://links.beevelop.com/d-youtransfer)
+[![Release](https://shields.beevelop.com/github/release/beevelop/docker-youtransfer.svg?style=flat-square)](https://github.com/beevelop/docker-youtransfer/releases)
+![Badges](https://shields.beevelop.com/badge/badges-7-brightgreen.svg?style=flat-square)
 [![Beevelop](https://links.beevelop.com/honey-badge)](https://beevelop.com)
 
 # [YouTransfer](https://github.com/remie/YouTransfer) for Docker :whale:
